@@ -1,0 +1,36 @@
+# 构建产物
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go 工具链
+vendor/
+go.work
+go.work.sum
+
+# 日志
+*.log
+logs/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+.DS_Store
+
+# 环境变量
+.env
+.env.local
+
+# 本地工具脚本的临时产物
+gen-tmp/
+survey/
+*.bak
